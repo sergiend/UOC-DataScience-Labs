@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in 1 2 3
+for i in $(seq 0 2 10)
 do
 	echo $i
 done
